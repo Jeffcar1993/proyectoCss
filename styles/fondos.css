@@ -1,0 +1,38 @@
+.grid-container3{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    background-color: grey;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container3 > div{
+    height: 30vh;
+    width: 25vw;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+.center{
+    text-align: center;
+}
+
+.plano{
+    text-align: left;
+    color: white;
+    background-color: rgb(44, 94, 88);
+}
+
+.gradient{
+    text-align: center;
+    color: white;
+    background: linear-gradient(to right, rgb(103, 178, 198), rgb(58, 127, 205));
+}
+
+.imagen{
+    text-align: right;
+    color: white;
+    width: 20%;
+    background-image: url(/assets/img/web-page-on-a-laptop-screen-a-mobile-phone-is-lying-a-cloud-a-cloud-service-or-an-application-modern-technological-background-isometry-conceptual-banner-of-web-technologies-vector.jpeg);
+}
